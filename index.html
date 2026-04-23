@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Param Pratap | Portfolio" />
+  <title>Param Pratap | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="header" id="home">
+    <nav class="nav container">
+      <a href="#home" class="logo">Param Pratap</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container reveal">
+      <p class="tag">SDE Intern @ Flipkart • Ex-Microsoft</p>
+      <h1>Building scalable systems, AI-powered workflows, and data-intensive platforms.</h1>
+      <p class="hero-sub">
+        Computer Science undergraduate at BITS Pilani Goa (CGPA 9.18) with internship and research experience across cloud systems, distributed databases, forecasting, and machine learning.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Hire Me</a>
+        <a class="btn btn-ghost" href="#projects">View Projects</a>
+      </div>
+      <div class="socials">
+        <a href="mailto:f20221124@goa.bits-pilani.ac.in">Email</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/param-pratap-551953252/">LinkedIn</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/paramp-ratap">GitHub</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://leetcode.com/u/Param_Pratap/">LeetCode</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://codeforces.com/profile/ParamPratap">Codeforces</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section container reveal">
+      <div class="section-head">
+        <p class="section-kicker">About</p>
+        <h2>Who I Am</h2>
+      </div>
+      <div class="glass-card">
+        <p>
+          I enjoy solving high-impact engineering problems at the intersection of systems and intelligence. I’ve worked on production cloud tooling,
+          anomaly detection, and model-driven analysis pipelines. My current focus is platform engineering for managed distributed databases.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section container reveal">
+      <div class="section-head">
+        <p class="section-kicker">Work Experience</p>
+        <h2>Industry Journey</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item glass-card">
+          <h3>SDE Intern • Flipkart Pvt Ltd</h3>
+          <p class="muted">January 2026 – Present</p>
+          <p>Building <strong>Rigel</strong>, a centrally managed <strong>PaaS/DBaaS</strong> platform that automates the full lifecycle of distributed <strong>TiDB</strong> deployments on <strong>Kubernetes</strong> across multi-site, multi-cloud, and hybrid setups.</p>
+        </article>
+        <article class="timeline-item glass-card">
+          <h3>SWE Intern • Microsoft Corporation</h3>
+          <p class="muted">May 2025 – July 2025 • Hyderabad, India</p>
+          <ul>
+            <li>Built HTTP-triggered Azure Functions (.NET) with KQL/DGrep-powered metrics and logs extraction integrated into Azure DevOps.</li>
+            <li>Designed Python preprocessing for JSON time series and used AutoGluon Chronos + gradient boosting for anomaly windows.</li>
+            <li>Implemented semantic embedding + LangChain GPT-4o RAG agent for zero-shot root-cause verdicts.</li>
+          </ul>
+        </article>
+        <article class="timeline-item glass-card">
+          <h3>Research Intern • Indian Institute of Remote Sensing (IIRS)</h3>
+          <p class="muted">May 2024 – July 2024 • Remote</p>
+          <ul>
+            <li>Worked on ship detection using Google Earth Engine data with YOLOv8/v9/v10.</li>
+            <li>Focused on DINO (DETR with Improved Optimization) in PyTorch for high-accuracy satellite detection.</li>
+            <li>Benchmarked precision/recall/efficiency tradeoffs for deployment relevance.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container reveal">
+      <div class="section-head">
+        <p class="section-kicker">Projects</p>
+        <h2>Selected Work</h2>
+      </div>
+      <div class="grid cards-3">
+        <article class="project-card glass-card">
+          <h3>Fast and Accurate NoC Latency Estimation</h3>
+          <p class="muted">C++, Python, Graphormer • Jan 2025 – May 2025</p>
+          <p>Created supervised NoC subgraph dataset and trained a tri-path Graphormer for SNR regression. Reduced 64-node evaluation time from 4h34m to 48m with minimal accuracy loss via client-server inference setup.</p>
+        </article>
+        <article class="project-card glass-card">
+          <h3>Professor-Course Network Flow Model</h3>
+          <p class="muted">C++, Data Structures • Oct 2023 – Dec 2023</p>
+          <p>Developed modified Ford-Fulkerson with randomized BFS to optimize course-professor matching under constraints and preference lists.</p>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/paramp-ratap/Disco_Project_2023">View Repository →</a>
+        </article>
+        <article class="project-card glass-card">
+          <h3>Automatic Brain Seizure Detection</h3>
+          <p class="muted">PyTorch • Jun 2023 – Jul 2023</p>
+          <p>Built seizure detection pipeline with Random Forest and boosting approaches, backed by EEG preprocessing and feature engineering in NumPy and Pandas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container reveal">
+      <div class="section-head">
+        <p class="section-kicker">Skills</p>
+        <h2>Tech Stack</h2>
+      </div>
+      <div class="grid cards-3">
+        <article class="glass-card">
+          <h3>Languages</h3>
+          <p>C++, C, SQL, Python, HTML, CSS, JavaScript, .NET/C#, Java, Golang</p>
+        </article>
+        <article class="glass-card">
+          <h3>Core Subjects</h3>
+          <p>DSA, OOP, DBMS, OS, CN, Statistical Methods, Optimization, Deep Learning, ML, AI, Data Science Foundations</p>
+        </article>
+        <article class="glass-card">
+          <h3>Frameworks & Tools</h3>
+          <p>LangChain, MySQL, Bash, Azure, TensorFlow, FastAPI, GCP, TiDB, Kafka, Docker, Kubernetes, Postman, Jira, Confluence, MCP Servers</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="activities" class="section container reveal">
+      <div class="section-head">
+        <p class="section-kicker">Extra-curricular</p>
+        <h2>Beyond Internships</h2>
+      </div>
+      <div class="grid cards-2">
+        <article class="glass-card">
+          <h3>Project Kratos</h3>
+          <p class="muted">Aug 2023 – Sep 2024</p>
+          <p>Built Python automation around ROS, Gazebo, and SLAM with TurtleBot on Linux for robust autonomous navigation.</p>
+        </article>
+        <article class="glass-card">
+          <h3>Teaching Assistant</h3>
+          <p class="muted">Jun 2024 – Dec 2024</p>
+          <p>TA for Object-Oriented Programming (Java) and Microprocessors & Interfacing (Verilog/Assembly), designed and graded quizzes and labs.</p>
+        </article>
+        <article class="glass-card">
+          <h3>Competitive Programming</h3>
+          <p>Codeforces Specialist (max 1473), 800+ LeetCode problems solved.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container reveal">
+      <div class="contact-card glass-card">
+        <h2>Let’s Build Something Great.</h2>
+        <p>Open to software engineering opportunities, systems engineering roles, and AI-focused platform work.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:f20221124@goa.bits-pilani.ac.in">Email Me</a>
+          <a class="btn btn-ghost" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/param-pratap-551953252/">Message on LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Param Pratap. Crafted with performance-first responsive UI.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
